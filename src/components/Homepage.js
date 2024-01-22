@@ -243,10 +243,10 @@ function Homepage() {
 			<hr className="my-[30px] w-[100%] border-[#67778870] border-[1px] border-solid"/>
 			<div className="px-[20px] py-[10px] w-[1200px] max-[1100px]:w-[80%] max-[800px]:w-[90%] max-[600px]:w-[100%] mx-[auto]">
 				<div className="flex items-center text-[16px] font-medium justify-end">
-					<div className="mr-[25px]" onClick={() => onMenuItemClicked('#home')}>Home</div>
-					<div className="mr-[25px]" onClick={() => onMenuItemClicked('#aboutus')}>About Us</div>
-					<div className="mr-[25px]" onClick={() => onMenuItemClicked('#ourservices')}>Our Services</div>
-					<div className="mr-[25px]" onClick={() => onMenuItemClicked('#casestudies')}>Case Studies</div>
+					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#home')}>Home</div>
+					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#aboutus')}>About Us</div>
+					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#ourservices')}>Our Services</div>
+					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#casestudies')}>Case Studies</div>
 					<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
 						Contact Us
 					</button>
