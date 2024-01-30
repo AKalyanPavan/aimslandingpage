@@ -6,6 +6,7 @@ import capital from './../images/capital.png';
 import research from './../images/research.png';
 import business from './../images/bussiness.png';
 import impact from './../images/impact.png';
+import aims from './../images/Aims.jpg';
 
 function Homepage() {
 	const [modalDisplay, setModalDisplay] = useState("hidden");
@@ -119,14 +120,19 @@ function Homepage() {
 				</div>
 
 				{/*fold 1*/}
-				<div id="home" className="my-[100px] min-[1100px]:w-[50%]">
-					<div className="max-[1000px]:text-[38px] text-[60px] text-[#1B1642] font-bold">Empower Your Startup's Journey with <span className="text-[#2F6AD9]">AIMS.</span></div>
-					<div className="text-[20px] leading-[32px] text-[#677788] my-[30px]">
-						At AIMS, we partner with founders to build and scale innovative businesses across diverse sectors. From strategic planning to capital acquisition, we're here for every step of your entrepreneurial journey.
+				<div className="flex items-center">
+					<div id="home" className="my-[100px] min-[1100px]:w-[50%]">
+						<div className="max-[1000px]:text-[38px] text-[60px] text-[#1B1642] font-bold">Empower Your Startup's Journey with <span className="text-[#2F6AD9]">AIMS.</span></div>
+						<div className="text-[20px] leading-[32px] text-[#677788] my-[30px]">
+							At AIMS, we partner with founders to build and scale innovative businesses across diverse sectors. From strategic planning to capital acquisition, we're here for every step of your entrepreneurial journey.
+						</div>
+						<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff] max-[700px]:mx-auto block">
+							Contact Us
+						</button>
 					</div>
-					<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff] max-[700px]:mx-auto block">
-						Contact Us
-					</button>
+					<div className="w-[50%] min-[1100px]:block hidden">
+						<img src={aims} />
+					</div>
 				</div>
 
 				{/*fold 2*/}
