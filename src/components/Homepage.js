@@ -81,9 +81,11 @@ function Homepage() {
 								<div className="mb-[10px] cursor-pointer" onClick={() => onMenuItemClicked('#aboutus')}>About Us</div>
 								<div className="mb-[10px] cursor-pointer" onClick={() => onMenuItemClicked('#ourservices')}>Our Services</div>
 								<div className="mb-[15px] cursor-pointer" onClick={() => onMenuItemClicked('#casestudies')}>Case Studies</div>
-								<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
-									Contact Us
-								</button>
+								<a href="https://calendly.com/angelinvestormarketingservices" target="_blank">
+									<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
+										Contact Us
+									</button>
+								</a>
 							</div>
 						</div>
 
@@ -113,9 +115,11 @@ function Homepage() {
 						<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#aboutus')}>About Us</div>
 						<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#ourservices')}>Our Services</div>
 						<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#casestudies')}>Case Studies</div>
-						<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
-							Contact Us
-						</button>
+						<a href="https://calendly.com/angelinvestormarketingservices" target="_blank">
+							<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
+								Contact Us
+							</button>
+						</a>
 					</div>
 				</div>
 
@@ -126,9 +130,11 @@ function Homepage() {
 						<div className="text-[20px] leading-[32px] text-[#677788] my-[30px]">
 							At AIMS, we partner with founders to build and scale innovative businesses across diverse sectors. From strategic planning to capital acquisition, we're here for every step of your entrepreneurial journey.
 						</div>
-						<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff] max-[700px]:mx-auto block">
-							Contact Us
-						</button>
+						<a href="https://calendly.com/angelinvestormarketingservices" target="_blank">
+							<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff] max-[700px]:mx-auto block">
+								Contact Us
+							</button>
+						</a>
 					</div>
 					<div className="w-[50%] min-[1100px]:block hidden">
 						<img src={aims} />
@@ -240,9 +246,11 @@ function Homepage() {
 				<div className="text-center mt-[100px]">
 					<div className="font-bold text-[32px]">Ready to Transform Your Business?</div>
 					<div className="text-[20px] font-medium text-[#677788] my-[30px]">Connect with us and take the first step towards realizing your business potential.</div>
-					<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
-						Contact Us
-					</button>
+					<a href="https://calendly.com/angelinvestormarketingservices" target="_blank">
+						<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
+							Contact Us
+						</button>
+					</a>
 				</div>
 
 			</div>
@@ -253,9 +261,11 @@ function Homepage() {
 					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#aboutus')}>About Us</div>
 					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#ourservices')}>Our Services</div>
 					<div className="mr-[25px] cursor-pointer" onClick={() => onMenuItemClicked('#casestudies')}>Case Studies</div>
-					<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
-						Contact Us
-					</button>
+					<a href="https://calendly.com/angelinvestormarketingservices" target="_blank">
+						<button className="bg-[#2F6AD9] px-[20px] py-[15px] rounded-[5px] text-[#ffffff]">
+							Contact Us
+						</button>
+					</a>
 				</div>
 			</div>
 		</>
